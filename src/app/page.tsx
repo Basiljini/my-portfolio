@@ -1,6 +1,7 @@
 import Image from "next/image";
 import About from "./components/About";
 import MyProjects from "./components/MyProjects";
+import Skills from "./components/Skills";
 export default function HomePage() {
   return (
     <main>
@@ -17,6 +18,7 @@ export default function HomePage() {
 
       <About />
       <MyProjects />
+      <Skills />
     </main>
   );
 }

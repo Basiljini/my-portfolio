@@ -2,6 +2,7 @@ import Image from "next/image";
 import About from "./components/About";
 import MyProjects from "./components/MyProjects";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 export default function HomePage() {
   return (
     <main>
@@ -19,6 +20,7 @@ export default function HomePage() {
       <About />
       <MyProjects />
       <Skills />
+      <Experience />
     </main>
   );
 }

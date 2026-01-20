@@ -4,6 +4,7 @@ import MyProjects from "./components/MyProjects";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
+import Contact from "./components/Contact";
 export default function HomePage() {
   return (
     <main>
@@ -32,7 +33,7 @@ export default function HomePage() {
       <Skills />
       <Experience />
       <Achievements />
-
+      <Contact />
     </main>
   );
 }

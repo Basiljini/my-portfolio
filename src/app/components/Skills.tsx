@@ -1,14 +1,14 @@
 export default function Skills() {
   return (
     // Skills Section
-  <section id="skills" className="py-20 bg-gray-200">
+  <section id="Skills" className="py-20 bg-gray-200">
   <div className="max-w-6xl mx-auto px-4">
     <h2 className="text-center text-4xl font-bold mb-12">
       My Skills
     </h2>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+      <div className="bg-white p-6 rounded-xl shadow-sm text-center hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
         <h3 className="text-xl font-semibold mb-4">Programming</h3>
         <ul className="space-y-2 text-gray-600 text-start">
           <li>JavaScript</li>
@@ -22,7 +22,7 @@ export default function Skills() {
         </ul>
       </div>
 
-      <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+      <div className="bg-white p-6 rounded-xl shadow-sm text-center hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
         <h3 className="text-xl font-semibold mb-4">Frontend</h3>
         <ul className="space-y-2 text-gray-600 text-start">
           <li>HTML</li>
@@ -34,7 +34,7 @@ export default function Skills() {
         </ul>
       </div>
 
-      <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+      <div className="bg-white p-6 rounded-xl shadow-sm text-center hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
         <h3 className="text-xl font-semibold mb-4">DevOps & Tools</h3>
         <ul className="space-y-2 text-gray-600 text-start">
           <li>Git & GitHub</li>
@@ -48,7 +48,7 @@ export default function Skills() {
         </ul>
       </div>
 
-      <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+      <div className="bg-white p-6 rounded-xl shadow-sm text-center hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
         <h3 className="text-xl font-semibold mb-4">Databases</h3>
         <ul className="space-y-2 text-gray-600 text-start">
           <li>MySQL</li>
@@ -58,7 +58,7 @@ export default function Skills() {
         </ul>
       </div>
 
-      <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+      <div className="bg-white p-6 rounded-xl shadow-sm text-center hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
         <h3 className="text-xl font-semibold mb-4">Design</h3>
         <ul className="space-y-2 text-gray-600 text-start">
           <li>Figma</li>
@@ -66,7 +66,7 @@ export default function Skills() {
         </ul>
       </div>
 
-       <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+       <div className="bg-white p-6 rounded-xl shadow-sm text-center hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
         <h3 className="text-xl font-semibold mb-4">Networking / IT</h3>
         <ul className="space-y-2 text-gray-600 text-start">
           <li>LAN/WAN</li>

@@ -1,7 +1,7 @@
     export default function About() {
       return (
         // About Me Section
-        <section className="py-20 ml-3 mr-3 bg-gray-200" id="About">
+        <section className="py-20 ml-3 mr-3 bg-gray-200 mt-10"  id="About">
           <h2 className="text-center text-4xl font-bold mb-10">About Me</h2>
 
           {/* grid layout for text sections */}

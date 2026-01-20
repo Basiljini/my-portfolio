@@ -58,7 +58,7 @@ export default function MyProjects() {
       <h2 className="text-3xl font-bold mb-4 text-center">My Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="border bg-stone-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-400">
+          <div key={index} className="border bg-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
             <Image src={project.Image} alt={project.title} width={400} height={200} className="w-full h-48 object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>

@@ -40,7 +40,7 @@ export default function Achievements() {
         
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
               {achievementsData.map((achievement, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+                <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
                   <Image
                     src={achievement.image}
                     alt={achievement.title}

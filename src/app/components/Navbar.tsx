@@ -9,8 +9,8 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="header w-full bg-white  shadow-md top-0 left-0 z-50">
-      <div className="navbar max-w-6xl mx-auto p-4 flex justify-between items-center">
+    <header className="header w-full shadow-md top-0 left-0 z-50">
+      <div className="navbar max-w-6xl mx-auto p-4 flex justify-between items-center ">
         
         {/* Logo */}
         <Link href="/" className="logo">
@@ -32,6 +32,8 @@ const Navbar: React.FC = () => {
           <li><a href="#About">About</a></li>
           <li><a href="#MyProjects">Projects</a></li>
           <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Achievements">Achievements</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
 
@@ -48,10 +50,12 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-inner border-t border-gray-100">
           <ul className="flex flex-col items-center py-4 space-y-4 text-gray-700 font-medium">
-            <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
-            <li><Link href="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
-            <li><Link href="/skills" onClick={() => setIsOpen(false)}>Skills</Link></li>
-            <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
+            <li><a href="#About" onClick={() => setIsOpen(false)}>About</a></li>
+            <li><a href="#MyProjects" onClick={() => setIsOpen(false)}>Projects</a></li>
+            <li><a href="#Skills" onClick={() => setIsOpen(false)}>Skills</a></li>
+            <li><a href="#Experience" onClick={() => setIsOpen(false)}>Experience</a></li>
+            <li><a href="#Achievements" onClick={() => setIsOpen(false)}>Achievements</a></li>
+            <li><a href="#Contact" onClick={() => setIsOpen(false)}>Contact</a></li>
           </ul>
         </div>
       )}

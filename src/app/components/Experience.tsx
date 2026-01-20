@@ -2,7 +2,7 @@
 export default function Experience() {
     return (
       // Experience Section
-      <section id="experience" className="py-20 bg-white">
+      <section id="Experience" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-center text-4xl font-bold mb-12">
             My Experience
@@ -10,7 +10,7 @@ export default function Experience() {
 
           <div className="grid grid-cols-1 gap-8">
             {/*CrowdAfrik Ltd*/}
-            <div className="bg-gray-200 p-6 rounded-lg shadow-md">
+            <div className="bg-gray-200 p-6 rounded-lg shadow-md  hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400 ">
               <h3 className="text-xl font-bold mb-2 text-center">Full Stack Developer Intern</h3>
               <p className="text-slate-700 font-semibold">CrowdAfrik Ltd</p>
               <p className="text-slate-600">London, UK (March 2025 - Dec 2025)</p>
@@ -35,7 +35,7 @@ export default function Experience() {
 
           <div className="grid grid-cols-1 gap-8 mt-5">
             {/*POTS*/}
-            <div className="bg-gray-200 p-6 rounded-lg shadow-md">
+            <div className="bg-gray-200 p-6 rounded-lg shadow-md  hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
               <h3 className="text-xl font-bold mb-2 text-center">Network Administrator</h3>
               <p className="text-slate-700 font-semibold">POTS</p>
               <p className="text-slate-600">Cochin, India (Jan 2024 - Aug 2024)</p>
@@ -63,7 +63,7 @@ export default function Experience() {
 
           <div className="grid grid-cols-1 gap-8 mt-5">
             {/*Luminar Technolab*/}
-            <div className="bg-gray-200 p-6 rounded-lg shadow-md">
+            <div className="bg-gray-200 p-6 rounded-lg shadow-md  hover:border-blue-500 hover:ring-2 hover:ring-blue-800 transition-shadow duration-400">
               <h3 className="text-xl font-bold mb-2 text-center">Software Developer Intern</h3>
               <p className="text-slate-700 font-semibold">Luminar Technolab</p>
               <p className="text-slate-600">Cochin, India (May 2023 - Dec 2023)</p>

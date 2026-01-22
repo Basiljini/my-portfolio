@@ -8,15 +8,15 @@
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-base text-gray-700">
             <div>
               <p>
-                I'm a software developer with a strong foundation in Cloud Applications.
+                I &apos;m a software developer with a strong foundation in Cloud Applications.
                 I love working with the latest technologies and frameworks to create
-                seamless user experiences. With hands-on experience in full-stack development and a recently completed Master's focusing in Cloud Computing, I offer a strong mix of technical expertise and cloud-focused strategy.
+                seamless user experiences. With hands-on experience in full-stack development and a recently completed Master &apos;s focusing in Cloud Computing, I offer a strong mix of technical expertise and cloud-focused strategy.
               </p>
             </div>
 
             <div>
               <p>
-                With almost two years of industry experience, I've honed my skills across the full stack,
+                With almost two years of industry experience, I &apos;ve honed my skills across the full stack,
               delivering robust applications leveraging key technologies such as <span className="font-bold">React.js</span>, <span className="font-bold">Next.js</span>,
               <span className="font-bold">Node.js</span>, and <span className="font-bold">Express.js</span>. My expertise also extends to database management with both
               <span className="font-bold">MySQL</span> and <span className="font-bold">MongoDB</span>, allowing me to build comprehensive and scalable solutions from front to back.

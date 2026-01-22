@@ -1,4 +1,4 @@
-import { FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
+import { FaLinkedin,FaEnvelope } from "react-icons/fa6";
 
 export default function Contact() {
   return (
